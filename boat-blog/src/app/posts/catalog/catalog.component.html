@@ -1,1 +1,7 @@
-<p>catalog works!</p>
+<div class="boat-card" id="boat1">
+    <img [src]="boat.imageUrl" />
+    <h3>Name: {{boat.name}}</h3>
+    <p>Company: {{boat.companyName}}</p>
+    <div class='detail-btn' [routerLink]="boat._id">Details</div>
+</div>
+<div class="no-post">There are no posts yet!</div>
